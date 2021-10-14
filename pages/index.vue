@@ -1,11 +1,11 @@
 <template>
-<TheTop/> 
+  <TheTop />
   <div class="center">
     <h1>{{ greeting }}</h1>
     <h2>{{ message }}</h2>
-<nuxt-link :to='{name: "about"}'>about</nuxt-link> 
+    <nuxt-link :to="{ name: 'about' }">about</nuxt-link>
   </div>
-      <TheFooter /> 
+  <TheFooter />
 </template>
 
 <script>
